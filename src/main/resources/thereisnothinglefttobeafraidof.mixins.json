@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.teampotato.thereisnothinglefttobeafraidof.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "thereisnothinglefttobeafraidof.refmap.json",
+  "mixins": [
+    "MixinSkullItem",
+    "MixinSkullPlayerBlock"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

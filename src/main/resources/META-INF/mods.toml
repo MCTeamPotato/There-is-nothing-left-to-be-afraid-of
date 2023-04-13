@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="LGPL-v2.1"
+
+[[mods]]
+modId="thereisnothinglefttobeafraidof"
+version="${file.jarVersion}"
+displayName="ThereIsNothingLeftToBeAfraidOf"
+authors="Team Potato"
+description='''
+
+'''
