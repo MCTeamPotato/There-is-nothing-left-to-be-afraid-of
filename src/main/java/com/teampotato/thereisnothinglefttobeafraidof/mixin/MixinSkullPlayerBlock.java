@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(SkullPlayerBlock.class)
 public class MixinSkullPlayerBlock {
     @Redirect(method = "setPlacedBy", at = @At(value = "INVOKE", target = "Lnet/minecraft/item/ItemStack;hasTag()Z"))
-    private boolean onSetPlacedBy(ItemStack instance) {
+    private boolean on_setPlacedBy(ItemStack instance) {
         return false;
     }
 }
